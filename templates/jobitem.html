@@ -1,0 +1,13 @@
+<div>
+  <div>
+    <h4>{{job['title']}}</h4>
+  </div>
+  <div>
+    <h5>{{job['location']}}</h5>
+  </div>
+  {% if 'salary' in job %}
+  <div>
+    <h5>{{job['salary']}}</h5>
+  </div>
+  {% endif %}
+</div>
